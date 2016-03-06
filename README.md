@@ -3,6 +3,8 @@ I didnt want to install ruby to get [this](https://git.zx2c4.com/password-store/
 Might be very buggy. Semi-customizable
 ##Usage:
 
-./last2pass file.csv
+-./last2pass file.csv
+
 It can also read from stdin, if no file is specified
-cat lastpassexport.csv | ./last2pass
+
+-cat lastpassexport.csv | ./last2pass
