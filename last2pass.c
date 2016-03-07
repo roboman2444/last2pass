@@ -95,6 +95,7 @@ int main(const int argc, const char ** argv){
 			execvp("pass", oots);
 			exit(0);
 		}
+		if(outn) free(outn);
 	}
 	if(lb) free(lb);
 
